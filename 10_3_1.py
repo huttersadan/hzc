@@ -22,6 +22,9 @@ train_x,test_x,train_y,test_y = train_test_split(X,Y,train_size=300/400)
 #train_x,dev_x,train_y,dev_y = train_test_split(train_x,train_y,train_size=9/10)
 
 
+
+
+
 num_features = 1000
 def fisher(train_X,train_Y):
     J_F_W = []
